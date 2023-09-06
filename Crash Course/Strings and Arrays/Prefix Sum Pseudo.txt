@@ -1,0 +1,5 @@
+Given an integer array nums,
+
+prefix = [nums[0]]
+for i in [1, len(nums) - 1]:
+    prefix.append(nums[i] + prefix[prefix.length - 1])
